@@ -1,0 +1,25 @@
+.container {
+  .todotitle {
+    background-color: bisque;
+  }
+  .mytodo {
+    margin-bottom: 70px;
+  }
+
+  .tododeletebtn {
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    .ci {
+      font-size: 20px;
+      background-color: red;
+      padding: 3px;
+      padding-bottom: 4px;
+      border-radius: 4px;
+    }
+    .tododeletebtn:hover {
+      font-size: 18px;
+      color: white;
+    }
+  }
+}
